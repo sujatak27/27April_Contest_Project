@@ -47,7 +47,7 @@
 .section {
   margin-left: 130px;
 }
-.task-info {
+#todaysTasks li {
   max-width: 1100px;
   display: flex;
   justify-content: space-evenly;
@@ -55,4 +55,9 @@
   color: white;
   padding: 6px;
   margin-top: 20px;
+  position: relative;
+}
+.index {
+  position: absolute;
+  left: 10px;
 }
